@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{1B20A37C-B63E-41EC-A3F1-9F64D7790542}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Shared", "Domain.Shared\Domain.Shared.csproj", "{DB5DACDF-3AB0-424D-AD29-922E632FCC5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1B20A37C-B63E-41EC-A3F1-9F64D7790542}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B20A37C-B63E-41EC-A3F1-9F64D7790542}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B20A37C-B63E-41EC-A3F1-9F64D7790542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5DACDF-3AB0-424D-AD29-922E632FCC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5DACDF-3AB0-424D-AD29-922E632FCC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5DACDF-3AB0-424D-AD29-922E632FCC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5DACDF-3AB0-424D-AD29-922E632FCC5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
