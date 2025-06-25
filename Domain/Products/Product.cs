@@ -35,7 +35,7 @@ public class Product : BaseEntity
 
     private void SetCreatedTime(DateTime createdTime)
     {
-        CreatedTime = createdTime;
+        CreatedTime = DateTime.Now;
     }
 
     private void SetUrgency(bool urgency)
